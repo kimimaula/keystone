@@ -5,6 +5,7 @@ import type { SessionOptions } from 'express-session';
 import { Request, Response, NextFunction } from 'express';
 import cookie from 'cookie';
 
+// FIXME: In the future this types will need to come from Keystone itself.
 type _Item = { id: string };
 type _List = {
   key: string;

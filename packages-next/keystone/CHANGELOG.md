@@ -1,5 +1,17 @@
 # @keystone-next/keystone
 
+## 9.1.0
+
+### Minor Changes
+
+- [`fe0c228b1`](https://github.com/keystonejs/keystone/commit/fe0c228b12530f6d384fa5eed9d5086768a24782) [#4676](https://github.com/keystonejs/keystone/pull/4676) Thanks [@timleslie](https://github.com/timleslie)! - Prisma artefacts are now generated in the `.keystone/prisma` directory.
+
+### Patch Changes
+
+- [`ac3db9561`](https://github.com/keystonejs/keystone/commit/ac3db95613093de83e2369f624ce9b6c77bb8eda) [#4690](https://github.com/keystonejs/keystone/pull/4690) Thanks [@timleslie](https://github.com/timleslie)! - Factored out `createKeystone` into a separate module.
+
+* [`f162a9d72`](https://github.com/keystonejs/keystone/commit/f162a9d72859ae7f2932bf0859c712861918b9e6) [#4675](https://github.com/keystonejs/keystone/pull/4675) Thanks [@timleslie](https://github.com/timleslie)! - Identified static paths required to locate configuration files.
+
 ## 9.0.2
 
 ### Patch Changes
